@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB50B8661A8DD06800DCB667 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50B8651A8DD06800DCB667 /* main.m */; };
+		CB50B8691A8DD06800DCB667 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50B8681A8DD06800DCB667 /* AppDelegate.m */; };
+		CB50B86C1A8DD06800DCB667 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50B86B1A8DD06800DCB667 /* ViewController.m */; };
+		CB50B86F1A8DD06800DCB667 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB50B86D1A8DD06800DCB667 /* Main.storyboard */; };
+		CB50B8711A8DD06800DCB667 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB50B8701A8DD06800DCB667 /* Images.xcassets */; };
+		CB50B8741A8DD06800DCB667 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB50B8721A8DD06800DCB667 /* LaunchScreen.xib */; };
+		CB50B8801A8DD06800DCB667 /* GestionEtudiantCargnelloTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50B87F1A8DD06800DCB667 /* GestionEtudiantCargnelloTests.m */; };
+		CB50B88B1A8DD08A00DCB667 /* Module.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50B88A1A8DD08A00DCB667 /* Module.m */; };
+		CB719FCF1AC5E97E004364F2 /* etudiant.png in Resources */ = {isa = PBXBuildFile; fileRef = CB719FCE1AC5E97E004364F2 /* etudiant.png */; };
+		CBB286E71A8DD6C500E72015 /* Etudiant.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB286E61A8DD6C500E72015 /* Etudiant.m */; };
+		CBB286EA1A8DE62800E72015 /* SaisieEtudiantViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB286E91A8DE62800E72015 /* SaisieEtudiantViewController.m */; };
+		CBDBEB061AA9A25700571E6B /* etudiant.plist in Resources */ = {isa = PBXBuildFile; fileRef = CBDBEB041AA9A25700571E6B /* etudiant.plist */; };
+		CBDBEB071AA9A25700571E6B /* module.plist in Resources */ = {isa = PBXBuildFile; fileRef = CBDBEB051AA9A25700571E6B /* module.plist */; };
+		CBE7CD171ABC057F00915CCD /* ListeModuleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE7CD161ABC057F00915CCD /* ListeModuleViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB50B87A1A8DD06800DCB667 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB50B8581A8DD06800DCB667 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB50B85F1A8DD06800DCB667;
+			remoteInfo = GestionEtudiantCargnello;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB50B8601A8DD06800DCB667 /* GestionEtudiantCargnello.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GestionEtudiantCargnello.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB50B8641A8DD06800DCB667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB50B8651A8DD06800DCB667 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB50B8671A8DD06800DCB667 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CB50B8681A8DD06800DCB667 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB50B86A1A8DD06800DCB667 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CB50B86B1A8DD06800DCB667 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CB50B86E1A8DD06800DCB667 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB50B8701A8DD06800DCB667 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CB50B8731A8DD06800DCB667 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CB50B8791A8DD06800DCB667 /* GestionEtudiantCargnelloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GestionEtudiantCargnelloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB50B87E1A8DD06800DCB667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB50B87F1A8DD06800DCB667 /* GestionEtudiantCargnelloTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GestionEtudiantCargnelloTests.m; sourceTree = "<group>"; };
+		CB50B8891A8DD08A00DCB667 /* Module.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Module.h; path = ../Module.h; sourceTree = "<group>"; };
+		CB50B88A1A8DD08A00DCB667 /* Module.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Module.m; path = ../Module.m; sourceTree = "<group>"; };
+		CB719FCE1AC5E97E004364F2 /* etudiant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = etudiant.png; sourceTree = "<group>"; };
+		CBB286E51A8DD6C500E72015 /* Etudiant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Etudiant.h; sourceTree = "<group>"; };
+		CBB286E61A8DD6C500E72015 /* Etudiant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Etudiant.m; sourceTree = "<group>"; };
+		CBB286E81A8DE62800E72015 /* SaisieEtudiantViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaisieEtudiantViewController.h; sourceTree = "<group>"; };
+		CBB286E91A8DE62800E72015 /* SaisieEtudiantViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaisieEtudiantViewController.m; sourceTree = "<group>"; };
+		CBDBEB041AA9A25700571E6B /* etudiant.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = etudiant.plist; sourceTree = "<group>"; };
+		CBDBEB051AA9A25700571E6B /* module.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = module.plist; sourceTree = "<group>"; };
+		CBE7CD151ABC057F00915CCD /* ListeModuleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListeModuleViewController.h; sourceTree = "<group>"; };
+		CBE7CD161ABC057F00915CCD /* ListeModuleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListeModuleViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB50B85D1A8DD06800DCB667 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB50B8761A8DD06800DCB667 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB50B8571A8DD06800DCB667 = {
+			isa = PBXGroup;
+			children = (
+				CB50B8621A8DD06800DCB667 /* GestionEtudiantCargnello */,
+				CB50B87C1A8DD06800DCB667 /* GestionEtudiantCargnelloTests */,
+				CB50B8611A8DD06800DCB667 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB50B8611A8DD06800DCB667 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB50B8601A8DD06800DCB667 /* GestionEtudiantCargnello.app */,
+				CB50B8791A8DD06800DCB667 /* GestionEtudiantCargnelloTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB50B8621A8DD06800DCB667 /* GestionEtudiantCargnello */ = {
+			isa = PBXGroup;
+			children = (
+				CBE7CD151ABC057F00915CCD /* ListeModuleViewController.h */,
+				CBE7CD161ABC057F00915CCD /* ListeModuleViewController.m */,
+				CB50B8891A8DD08A00DCB667 /* Module.h */,
+				CB50B88A1A8DD08A00DCB667 /* Module.m */,
+				CBB286E81A8DE62800E72015 /* SaisieEtudiantViewController.h */,
+				CBB286E91A8DE62800E72015 /* SaisieEtudiantViewController.m */,
+				CBB286E51A8DD6C500E72015 /* Etudiant.h */,
+				CBB286E61A8DD6C500E72015 /* Etudiant.m */,
+				CB50B8671A8DD06800DCB667 /* AppDelegate.h */,
+				CB50B8681A8DD06800DCB667 /* AppDelegate.m */,
+				CB50B86A1A8DD06800DCB667 /* ViewController.h */,
+				CB50B86B1A8DD06800DCB667 /* ViewController.m */,
+				CB50B86D1A8DD06800DCB667 /* Main.storyboard */,
+				CB50B8701A8DD06800DCB667 /* Images.xcassets */,
+				CB50B8721A8DD06800DCB667 /* LaunchScreen.xib */,
+				CB50B8631A8DD06800DCB667 /* Supporting Files */,
+			);
+			path = GestionEtudiantCargnello;
+			sourceTree = "<group>";
+		};
+		CB50B8631A8DD06800DCB667 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB719FCE1AC5E97E004364F2 /* etudiant.png */,
+				CBDBEB041AA9A25700571E6B /* etudiant.plist */,
+				CBDBEB051AA9A25700571E6B /* module.plist */,
+				CB50B8641A8DD06800DCB667 /* Info.plist */,
+				CB50B8651A8DD06800DCB667 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB50B87C1A8DD06800DCB667 /* GestionEtudiantCargnelloTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB50B87F1A8DD06800DCB667 /* GestionEtudiantCargnelloTests.m */,
+				CB50B87D1A8DD06800DCB667 /* Supporting Files */,
+			);
+			path = GestionEtudiantCargnelloTests;
+			sourceTree = "<group>";
+		};
+		CB50B87D1A8DD06800DCB667 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB50B87E1A8DD06800DCB667 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB50B85F1A8DD06800DCB667 /* GestionEtudiantCargnello */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB50B8831A8DD06800DCB667 /* Build configuration list for PBXNativeTarget "GestionEtudiantCargnello" */;
+			buildPhases = (
+				CB50B85C1A8DD06800DCB667 /* Sources */,
+				CB50B85D1A8DD06800DCB667 /* Frameworks */,
+				CB50B85E1A8DD06800DCB667 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GestionEtudiantCargnello;
+			productName = GestionEtudiantCargnello;
+			productReference = CB50B8601A8DD06800DCB667 /* GestionEtudiantCargnello.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB50B8781A8DD06800DCB667 /* GestionEtudiantCargnelloTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB50B8861A8DD06800DCB667 /* Build configuration list for PBXNativeTarget "GestionEtudiantCargnelloTests" */;
+			buildPhases = (
+				CB50B8751A8DD06800DCB667 /* Sources */,
+				CB50B8761A8DD06800DCB667 /* Frameworks */,
+				CB50B8771A8DD06800DCB667 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB50B87B1A8DD06800DCB667 /* PBXTargetDependency */,
+			);
+			name = GestionEtudiantCargnelloTests;
+			productName = GestionEtudiantCargnelloTests;
+			productReference = CB50B8791A8DD06800DCB667 /* GestionEtudiantCargnelloTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB50B8581A8DD06800DCB667 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Rodolphe Cargnello";
+				TargetAttributes = {
+					CB50B85F1A8DD06800DCB667 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 5ZDQ9XD9JE;
+					};
+					CB50B8781A8DD06800DCB667 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = CB50B85F1A8DD06800DCB667;
+					};
+				};
+			};
+			buildConfigurationList = CB50B85B1A8DD06800DCB667 /* Build configuration list for PBXProject "GestionEtudiantCargnello" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB50B8571A8DD06800DCB667;
+			productRefGroup = CB50B8611A8DD06800DCB667 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB50B85F1A8DD06800DCB667 /* GestionEtudiantCargnello */,
+				CB50B8781A8DD06800DCB667 /* GestionEtudiantCargnelloTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB50B85E1A8DD06800DCB667 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBDBEB071AA9A25700571E6B /* module.plist in Resources */,
+				CB50B86F1A8DD06800DCB667 /* Main.storyboard in Resources */,
+				CB50B8741A8DD06800DCB667 /* LaunchScreen.xib in Resources */,
+				CB719FCF1AC5E97E004364F2 /* etudiant.png in Resources */,
+				CBDBEB061AA9A25700571E6B /* etudiant.plist in Resources */,
+				CB50B8711A8DD06800DCB667 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB50B8771A8DD06800DCB667 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB50B85C1A8DD06800DCB667 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBB286E71A8DD6C500E72015 /* Etudiant.m in Sources */,
+				CB50B86C1A8DD06800DCB667 /* ViewController.m in Sources */,
+				CBB286EA1A8DE62800E72015 /* SaisieEtudiantViewController.m in Sources */,
+				CB50B88B1A8DD08A00DCB667 /* Module.m in Sources */,
+				CBE7CD171ABC057F00915CCD /* ListeModuleViewController.m in Sources */,
+				CB50B8691A8DD06800DCB667 /* AppDelegate.m in Sources */,
+				CB50B8661A8DD06800DCB667 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB50B8751A8DD06800DCB667 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB50B8801A8DD06800DCB667 /* GestionEtudiantCargnelloTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB50B87B1A8DD06800DCB667 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB50B85F1A8DD06800DCB667 /* GestionEtudiantCargnello */;
+			targetProxy = CB50B87A1A8DD06800DCB667 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB50B86D1A8DD06800DCB667 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB50B86E1A8DD06800DCB667 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB50B8721A8DD06800DCB667 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB50B8731A8DD06800DCB667 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB50B8811A8DD06800DCB667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB50B8821A8DD06800DCB667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB50B8841A8DD06800DCB667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GestionEtudiantCargnello/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		CB50B8851A8DD06800DCB667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GestionEtudiantCargnello/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		CB50B8871A8DD06800DCB667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GestionEtudiantCargnelloTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GestionEtudiantCargnello.app/GestionEtudiantCargnello";
+			};
+			name = Debug;
+		};
+		CB50B8881A8DD06800DCB667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GestionEtudiantCargnelloTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GestionEtudiantCargnello.app/GestionEtudiantCargnello";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB50B85B1A8DD06800DCB667 /* Build configuration list for PBXProject "GestionEtudiantCargnello" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB50B8811A8DD06800DCB667 /* Debug */,
+				CB50B8821A8DD06800DCB667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB50B8831A8DD06800DCB667 /* Build configuration list for PBXNativeTarget "GestionEtudiantCargnello" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB50B8841A8DD06800DCB667 /* Debug */,
+				CB50B8851A8DD06800DCB667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB50B8861A8DD06800DCB667 /* Build configuration list for PBXNativeTarget "GestionEtudiantCargnelloTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB50B8871A8DD06800DCB667 /* Debug */,
+				CB50B8881A8DD06800DCB667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB50B8581A8DD06800DCB667 /* Project object */;
+}
